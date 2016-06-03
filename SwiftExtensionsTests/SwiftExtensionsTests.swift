@@ -68,4 +68,19 @@ class SwiftExtensionsTests: XCTestCase {
         XCTAssertEqual(alpha, 1)
     }
 
+    func testUIImage() {
+        
+        if let image = UIImage(color: UIColor.orangeColor(), size: CGSizeMake(100, 200)) {
+            
+            XCTAssertEqual(image.size.width, 100 * UIScreen.mainScreen().scale)
+            XCTAssertEqual(image.size.height, 200 * UIScreen.mainScreen().scale)
+
+            let resized = image.resize(50)
+            XCTAssertEqual(resized.size.width, 50)
+            XCTAssertEqual(resized.size.height, 100)
+
+        }
+        
+        
+    }
 }
