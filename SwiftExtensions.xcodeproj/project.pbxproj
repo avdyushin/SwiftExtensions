@@ -14,7 +14,8 @@
 		4BBD4E1F1CFEF0F5004D127D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD4E1D1CFEF0F5004D127D /* LaunchScreen.storyboard */; };
 		4BBD4E2A1CFEF0F6004D127D /* SwiftExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E291CFEF0F6004D127D /* SwiftExtensionsTests.swift */; };
 		4BBD4E351CFEF14D004D127D /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E341CFEF14D004D127D /* UIColorExtension.swift */; };
-		4BBD4E411D01C629004D127D /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E401D01C629004D127D /* UIImageExtensions.swift */; };
+		4BBD4E411D01C629004D127D /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E401D01C629004D127D /* UIImageExtension.swift */; };
+		4BEA19961D23E8C000D66DF1 /* Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BEA19951D23E8C000D66DF1 /* Collections.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,8 @@
 		4BBD4E291CFEF0F6004D127D /* SwiftExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExtensionsTests.swift; sourceTree = "<group>"; };
 		4BBD4E2B1CFEF0F6004D127D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4BBD4E341CFEF14D004D127D /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		4BBD4E401D01C629004D127D /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		4BBD4E401D01C629004D127D /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		4BEA19951D23E8C000D66DF1 /* Collections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Collections.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +90,8 @@
 				4BBD4E1D1CFEF0F5004D127D /* LaunchScreen.storyboard */,
 				4BBD4E201CFEF0F5004D127D /* Info.plist */,
 				4BBD4E341CFEF14D004D127D /* UIColorExtension.swift */,
-				4BBD4E401D01C629004D127D /* UIImageExtensions.swift */,
+				4BBD4E401D01C629004D127D /* UIImageExtension.swift */,
+				4BEA19951D23E8C000D66DF1 /* Collections.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -206,7 +209,8 @@
 				4BBD4E171CFEF0F5004D127D /* ViewController.swift in Sources */,
 				4BBD4E151CFEF0F5004D127D /* AppDelegate.swift in Sources */,
 				4BBD4E351CFEF14D004D127D /* UIColorExtension.swift in Sources */,
-				4BBD4E411D01C629004D127D /* UIImageExtensions.swift in Sources */,
+				4BBD4E411D01C629004D127D /* UIImageExtension.swift in Sources */,
+				4BEA19961D23E8C000D66DF1 /* Collections.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

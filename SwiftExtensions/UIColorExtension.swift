@@ -10,6 +10,7 @@ import UIKit
 
 extension UIColor {
     
+    /// Color formats
     enum ColorFormat: Int {
         
         case RGB = 12
@@ -23,9 +24,7 @@ extension UIColor {
         
     }
     
-    /**
-        Returns color with given hex string
-     */
+    /// Returns color with given hex string
     convenience init(string: String) {
         
         let string = string.stringByReplacingOccurrencesOfString("#", withString: "")
@@ -42,9 +41,7 @@ extension UIColor {
         
     }
     
-    /**
-        Returns color with given hex integer value and color format
-     */
+    /// Returns color with given hex integer value and color format
     convenience init(hex: Int, format: ColorFormat = ColorFormat.RRGGBB) {
         
         var red = 0, green = 0, blue = 0, alpha = 255

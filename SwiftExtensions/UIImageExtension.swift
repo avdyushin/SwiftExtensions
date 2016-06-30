@@ -10,6 +10,7 @@ import UIKit
 
 extension UIImage {
     
+    /// Inits image with given color and size
     convenience init?(color: UIColor, size: CGSize = CGSizeMake(1, 1)) {
         
         let rect = CGRect(x: 0, y: 0, width: size.width, height: size.height)
@@ -23,6 +24,7 @@ extension UIImage {
         UIGraphicsEndImageContext()
     }
     
+    /// Returns resize image to width
     public func resize(width: CGFloat) -> UIImage {
         
         let scale = width / self.size.width
