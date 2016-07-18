@@ -48,14 +48,16 @@ default:
     break
 }
 /// Check specific device
-UIDevice.isPhone
-UIDevice.isPad
-UIDevice.isTV
-UIDevice.isPadPro
-UIDevice.isPhone4
-UIDevice.isPhone5
-UIDevice.isPhone6
-UIDevice.isPhone6Plus
+switch UIDevice.model {
+case .iPhoneSE:
+    break
+case .iPadPro12:
+    break
+default:
+    break
+}
+/// Device model string value:
+UIDevice.modelName // Returns for ex. "iPhone 6S Plus"
 ```
 ## UITraitCollection
 ```

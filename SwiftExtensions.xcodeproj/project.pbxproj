@@ -11,6 +11,7 @@
 		4B8C39431D3CC00100A00B91 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39421D3CC00100A00B91 /* UIDevice.swift */; };
 		4B8C39451D3CC07100A00B91 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39441D3CC07100A00B91 /* UIScreen.swift */; };
 		4B8C39471D3CC72A00A00B91 /* FlatColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39461D3CC72A00A00B91 /* FlatColors.swift */; };
+		4B8C394B1D3CD3BD00A00B91 /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C394A1D3CD3BD00A00B91 /* System.swift */; };
 		4BBD4E151CFEF0F5004D127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E141CFEF0F5004D127D /* AppDelegate.swift */; };
 		4BBD4E171CFEF0F5004D127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E161CFEF0F5004D127D /* ViewController.swift */; };
 		4BBD4E1A1CFEF0F5004D127D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD4E181CFEF0F5004D127D /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 		4B8C39421D3CC00100A00B91 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
 		4B8C39441D3CC07100A00B91 /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		4B8C39461D3CC72A00A00B91 /* FlatColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatColors.swift; sourceTree = "<group>"; };
+		4B8C394A1D3CD3BD00A00B91 /* System.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
 		4BBD4E111CFEF0F5004D127D /* SwiftExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD4E141CFEF0F5004D127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBD4E161CFEF0F5004D127D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				4B8C39421D3CC00100A00B91 /* UIDevice.swift */,
 				4B6E61081D3CAB8D00A9BF80 /* UITraitCollection.swift */,
 				4B8C39441D3CC07100A00B91 /* UIScreen.swift */,
+				4B8C394A1D3CD3BD00A00B91 /* System.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8C394B1D3CD3BD00A00B91 /* System.swift in Sources */,
 				4BBD4E171CFEF0F5004D127D /* ViewController.swift in Sources */,
 				4B8C39471D3CC72A00A00B91 /* FlatColors.swift in Sources */,
 				4BBD4E151CFEF0F5004D127D /* AppDelegate.swift in Sources */,
