@@ -19,3 +19,14 @@ let image = UIImage(color: UIColor.orangeColor(), size: CGSizeMake(100, 200))
 // Resize image proportionally to width 50
 image.resize(50)
 ```
+
+## UITraitCollection
+```
+traitCollection.maxDeviceWidth // Returns max device width in pixels
+traitCollection.deviceInches   // Returns device screen inches type
+
+// Easy to check if it is iPhone 4 or 4S
+if traitCollection.deviceInches == .iphone_3_5_inch {
+    // iPhone 3.5" with inches screen
+}
+```

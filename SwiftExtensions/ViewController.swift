@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        if self.traitCollection.deviceInches == .iphone_3_5_inch {
+            // iPhone 3.5" with inches screen
+        }
     }
 
     override func didReceiveMemoryWarning() {
