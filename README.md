@@ -12,6 +12,16 @@ UIColor(string: "#fba8")     // RGBa short hex string
 UIColor(hex: 0x808080)       // RGB int hex value
 ```
 
+## Flat UI Colors
+Colors by [flat UI Colors](http://flatuicolors.com/)
+
+```
+UIColor.flat.alizarin
+UIColor.flat.carrot
+...
+```
+
+
 ## UIImage
 ```
 // Image filled with given color and size

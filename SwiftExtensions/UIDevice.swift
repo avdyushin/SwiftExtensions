@@ -1,5 +1,6 @@
 //
 //  Device.swift
+//  SwiftExtensions
 //
 //  Created by Grigory Avdyushin on 29.01.16.
 //  Copyright © 2016 Grigory Avdyushin. All rights reserved.
