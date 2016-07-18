@@ -16,6 +16,17 @@ class ViewController: UIViewController {
         if self.traitCollection.deviceInches == .iphone_3_5_inch {
             // iPhone 3.5" with inches screen
         }
+        switch UIDevice.deviceType {
+        case .iphone_3_5_inch:
+            // iPhone 4/4S
+            break
+        case .iphone_5_5_inch:
+            // iPhone 6+/6+S
+            break
+        default:
+            break
+        }
+        UIDevice.isPhone
     }
 
     override func didReceiveMemoryWarning() {

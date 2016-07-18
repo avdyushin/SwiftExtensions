@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4B6E61091D3CAB8D00A9BF80 /* UITraitCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6E61081D3CAB8D00A9BF80 /* UITraitCollection.swift */; };
+		4B8C39431D3CC00100A00B91 /* UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39421D3CC00100A00B91 /* UIDevice.swift */; };
+		4B8C39451D3CC07100A00B91 /* UIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8C39441D3CC07100A00B91 /* UIScreen.swift */; };
 		4BBD4E151CFEF0F5004D127D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E141CFEF0F5004D127D /* AppDelegate.swift */; };
 		4BBD4E171CFEF0F5004D127D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBD4E161CFEF0F5004D127D /* ViewController.swift */; };
 		4BBD4E1A1CFEF0F5004D127D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BBD4E181CFEF0F5004D127D /* Main.storyboard */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		4B6E61081D3CAB8D00A9BF80 /* UITraitCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITraitCollection.swift; sourceTree = "<group>"; };
+		4B8C39421D3CC00100A00B91 /* UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDevice.swift; sourceTree = "<group>"; };
+		4B8C39441D3CC07100A00B91 /* UIScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIScreen.swift; sourceTree = "<group>"; };
 		4BBD4E111CFEF0F5004D127D /* SwiftExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BBD4E141CFEF0F5004D127D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BBD4E161CFEF0F5004D127D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +98,9 @@
 				4BBD4E341CFEF14D004D127D /* UIColor.swift */,
 				4BBD4E401D01C629004D127D /* UIImage.swift */,
 				4BEA19951D23E8C000D66DF1 /* FixedSizeOrderedSet.swift */,
+				4B8C39421D3CC00100A00B91 /* UIDevice.swift */,
 				4B6E61081D3CAB8D00A9BF80 /* UITraitCollection.swift */,
+				4B8C39441D3CC07100A00B91 /* UIScreen.swift */,
 			);
 			path = SwiftExtensions;
 			sourceTree = "<group>";
@@ -214,7 +220,9 @@
 				4BBD4E351CFEF14D004D127D /* UIColor.swift in Sources */,
 				4BBD4E411D01C629004D127D /* UIImage.swift in Sources */,
 				4B6E61091D3CAB8D00A9BF80 /* UITraitCollection.swift in Sources */,
+				4B8C39431D3CC00100A00B91 /* UIDevice.swift in Sources */,
 				4BEA19961D23E8C000D66DF1 /* FixedSizeOrderedSet.swift in Sources */,
+				4B8C39451D3CC07100A00B91 /* UIScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

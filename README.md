@@ -20,6 +20,33 @@ let image = UIImage(color: UIColor.orangeColor(), size: CGSizeMake(100, 200))
 image.resize(50)
 ```
 
+## UIScreen
+```
+UIScreen.maxDeviceWidth // Returns main screen max width
+```
+## UIDevice
+```
+/// Returns device type based on screen inches
+switch UIDevice.deviceType {
+case .iphone_3_5_inch:
+    // iPhone 4/4S
+    break
+case .iphone_5_5_inch:
+    // iPhone 6+/6+S
+    break
+default:
+    break
+}
+/// Check specific device
+UIDevice.isPhone
+UIDevice.isPad
+UIDevice.isTV
+UIDevice.isPadPro
+UIDevice.isPhone4
+UIDevice.isPhone5
+UIDevice.isPhone6
+UIDevice.isPhone6Plus
+```
 ## UITraitCollection
 ```
 traitCollection.maxDeviceWidth // Returns max device width in pixels
